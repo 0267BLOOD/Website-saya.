@@ -1,5 +1,9 @@
 const tombol = document.querySelector(".btn");
 
-tombol.addEventListener("click", function() {
-    alert("Halo! Senang kenalan dengan kamu 👋");
+tombol.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    document.querySelector("#about").scrollIntoView({
+        behavior: "smooth"
+    });
 });
