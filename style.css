@@ -84,3 +84,21 @@ nav a:hover {
         font-size: 35px;
     }
 }
+
+section {
+    min-height: 60vh;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.7;
+}
