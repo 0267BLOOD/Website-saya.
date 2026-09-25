@@ -1,5 +1,4 @@
-const tombol = document.querSelector("button");
+const tombol = document.querSelector(".btn");
 
-tombol.addEventListener("click",function) {
-alert("Halo! Senang kenalan dengan Kamu 🤗");
+tombol.addEventListener("click",function) {alert("Halo! Senang kenalan dengan Kamu 🤗");
 });    
