@@ -1,3 +1,5 @@
-function sapa() {
-    alert("Halo! Selamat datang di website saya 🚀");
-}
+const tombol = document.querSelector("button");
+
+tombol.addEventListener("click",function) {
+alert("Halo! Senang kenalan dengan Kamu 🤗");
+});    
