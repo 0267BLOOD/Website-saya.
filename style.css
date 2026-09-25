@@ -6,17 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #222;
+    background: #0f172a;
+    color: white;
 }
 
 nav {
-    background: #111;
-    color: white;
-    padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 8%;
+    background: #020617;
+}
+
+nav h2 {
+    color: #38bdf8;
 }
 
 nav a {
@@ -25,10 +28,13 @@ nav a {
     margin-left: 20px;
 }
 
+nav a:hover {
+    color: #38bdf8;
+}
+
 .hero {
-    min-height: 500px;
+    min-height: 90vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -36,76 +42,45 @@ nav a {
 }
 
 .hero h1 {
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
 }
 
 .hero p {
     font-size: 20px;
-    margin-bottom: 25px;
+    color: #cbd5e1;
+    margin-bottom: 30px;
 }
 
-button,
-.wa {
-    background: #111;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 8px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-section {
-    padding: 80px 10%;
-    text-align: center;
-}
-
-section h2 {
-    margin-bottom: 20px;
-}
-
-.skills {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.skills div {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px #ccc;
-}
-
-.wa {
+.btn {
     display: inline-block;
-    margin-top: 15px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
-footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.btn:hover {
+    background: white;
 }
 
 @media (max-width: 600px) {
-
     nav {
         flex-direction: column;
         gap: 15px;
     }
 
     nav a {
-        margin: 5px;
+        margin: 0 8px;
     }
 
     .hero h1 {
-        font-size: 32px;
-    }
-
-    .skills {
-        flex-direction: column;
+        font-size: 35px;
     }
 }
