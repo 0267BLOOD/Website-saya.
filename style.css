@@ -102,3 +102,27 @@ section p {
     font-size: 18px;
     line-height: 1.7;
 }
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    padding: 30px;
+    background: #1e293b;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
