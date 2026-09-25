@@ -126,3 +126,79 @@ section p {
 .card:hover {
     transform: translateY(-10px);
 }
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: naik 0.8s ease;
+}
+
+@keyframes naik {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    nav h2 {
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
