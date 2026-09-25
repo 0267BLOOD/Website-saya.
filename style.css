@@ -102,4 +102,25 @@ section p {
 	line-height: 1.7;
 }
 	
+.skills {
+	display: flex;
+	justify-conect: center;
+	gap: 20px;
+	flex-warp: warp;
+}
+	
+.card {
+	width: 250px;
+	pading: 30px;
+	background: #1e293b;
+	transition: 0,3s;
+}
+
+.card h3 {
+	color: #38bdf8;
+	margin-buttong: 15px;
+}
+.card:hover {
+	transform: translateY(-10px);
+}	
 }
