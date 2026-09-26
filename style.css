@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background: #020617;
+    background: #020617; 
 }
 
 nav h2 {
@@ -142,9 +142,9 @@ section p {
 .cards {
     display: flex;
     flex-direction: row;
-    justtify-content: flex-strat;
-    align-items: stretch;
-    gap: 30px;
+    justtify-content: center;
+    align-items: center;
+    gap: 20px;
     width: 100%:
     flex-wrap: wrap;   
 }
