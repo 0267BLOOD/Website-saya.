@@ -142,12 +142,11 @@ section p {
 .cards {
     display: flex;
     flex-direction: row;
-    justtify-content: center;
+    justtify-content: flex-strat;
     align-items: stretch;
     gap: 30px;
     width: 100%:
     flex-wrap: wrap;   
- 
 }
 
 .hero {
