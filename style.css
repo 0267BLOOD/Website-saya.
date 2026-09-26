@@ -146,13 +146,6 @@ section p {
     flex-wrap: wrap;   
 }
 
-#project {
-    text-align: center;
-    display: flex;
-    flex-direction: colum;
-    align-items: center;
-}
-
 .hero {
     animation: muncul 1s ease;
 }
