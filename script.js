@@ -1,5 +1,5 @@
-const tombol = document.querySelector("#tombolSapa");
+const tombol= document.querySelector("#tombol sapa");
+const pesan= document.querySelector("#pesan");
 
-tombol.addEventListener("click", function() {
-    alert("Halo! Senang kenalan dengan kamu 👋");
-});
+tombol.addEventListener("click",function() {
+    pesan.textContent = "Hslo! Senng Kenalan dengan kamu 🤗";});
