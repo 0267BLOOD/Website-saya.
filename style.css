@@ -123,7 +123,7 @@ section p {
     cursor: pointer;
 }
 
-.card;hover {
+.card:hover {
     transform: trasnlateY(-10px)scale(1.03);
     box-shadow: 0 10px 30px rgba(56,189,248,0.25);
 }    
@@ -139,8 +139,8 @@ section p {
 
 .projects {
     display: flex;
-    justify-content: center;
     gap: 20px;
+    justtify-content: center;
     flex-wrap: wrap;
 }
 
