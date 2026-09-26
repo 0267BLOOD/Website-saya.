@@ -137,7 +137,7 @@ section p {
     transform: translateY(-10px);
 }
 
-.projects {
+.cards {
     display: flex;
     gap: 20px;
     justtify-content: center;
@@ -282,13 +282,4 @@ section p {
         opacity: 1;
         transform: translateY(0);
     }
-}    
-
-.project {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: stretch;
-    gap: 30px !important;
-    flex-warp: warp;
 }    
