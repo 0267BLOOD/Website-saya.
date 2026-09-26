@@ -3,86 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Website Saya</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body>  
     <nav>
         <h2>Website Saya</h2>
-        
-        <button class="menu-btn">☰</button>
 
         <div class="nav-links">
             <a href="#home">Home</a>
-            <a href="#about">Tentang</a>
             <a href="#skill">Skill</a>
             <a href="#project">Project</a>
             <a href="#contact">Kontak</a>
         </div>
     </nav>
 
-    <section class="hero" id="home">
-        <div>
-            <h1>Halo, Saya <span>027BLOOD</span> 😎</h1>
-
-            <p>
-                Selamat datang di website pertama saya.
-                Saya sedang belajar membuat website.
-            </p>
-
-            <a href="#about" class="btn">Kenalan Yuk</a>
-        </div>
-    </section>
-
-    <section id="about">
-        <h2>Tentang Saya</h2>
-        <p>Saya sedang belajar HTML, CSS, dan JavaScript.</p>
-    </section>
     
-   <section id="skill">
-     <h2>Skill Saya</h2>
+    <section id="home" class="hero">
+        <h1>Halo, Saya Kucit 👋</h1>
 
-     <div class="skills">
-        <div class="card">
-            <h3>HTML</h3>
-            <p>Membuat struktur website.</p>
+        <p>
+            Saya sedang belajar membuat website
+            menggunakan HTML, CSS, dan JavaScript.
+        </p>
+
+        <button class="btn" id="tombolSapa">
+            Kenalan
+        </button>
+    </section>
+
+    
+    <section id="skill">
+        <h2>Skill Saya</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Membuat struktur website.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Membuat tampilan website.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Membuat website menjadi interaktif.</p>
+            </div>
+
         </div>
+    </section>
 
-        <div class="card">
-            <h3>CSS</h3>
-            <p>Membuat tampilan website.</p>
+    
+    <section id="project">
+        <h2>Project Saya</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Website Pertama</h3>
+                <p>
+                    Website pertama saya menggunakan
+                    HTML dan CSS.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Berikutnya</h3>
+                <p>
+                    Akan diisi dengan project
+                    JavaScript saya.
+                </p>
+            </div>
+
         </div>
+    </section>
 
-        <div class="card">
-            <h3>JavaScript</h3>
-            <p>Membuat website menjadi interaktif.</p>
-        </div>
-      </div>
-   </section>
-
-   <section id="project">
-     <h2>Project Saya</h2>
-
-     <div class="cards">
-         <div class="card">
-            <h3>Website Pertama</h3>
-            <p>Website pertama saya menggunakan HTML dan CSS.</p>
-         </div>
-
-         <div class="card">
-            <h3>Project Berikutnya</h3>
-            <p>Akan diisi dengan project JavaScript saya.</p>
-         </div>
-       </div>
-    </section>   
     
     <section id="contact">
         <h2>Kontak</h2>
-        <p>Terima kasih sudah mengunjungi website saya.</p>
+
+        <p>
+            Terima kasih sudah mengunjungi website saya.
+        </p>
     </section>
 
+
     <script src="script.js"></script>
+
 </body>
 </html>
