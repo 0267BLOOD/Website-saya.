@@ -178,8 +178,36 @@ section h2 {
         opacity: 1;
         transform: translateY(0);
     }
-}
+}    
 
 html {
     scroll-behavior: smooth;
+}    
+
+#themeBtn {
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+body.light {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+body.light nav {
+    background: #ffffff;
+}
+
+body.light .nav-links a {
+    color: #0f172a;
+}
+
+body.light .card {
+    background: #ffffff;
+}
+
+body.light section p {
+    color: #334155;
 }    
