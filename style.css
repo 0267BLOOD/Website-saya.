@@ -6,6 +6,118 @@
 
 body {
     font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+nav {
+    background: #111;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+button,
+.wa {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills div {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.wa {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background: #0f172a;
     color: white;
 }
@@ -15,7 +127,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 8%;
-    background: #020617; 
+    background: #020617;
 }
 
 nav h2 {
@@ -66,12 +178,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-.btn {
-    transition: 0,3s ease;
-}   
 .btn:hover {
     background: white;
-    transform:   scale(1.05);
 }
 
 @media (max-width: 600px) {
@@ -119,16 +227,8 @@ section p {
     padding: 30px;
     background: #1e293b;
     border-radius: 15px;
-    transition: 0.3s ease;
-    cursor: pointer;
-    box-sizing: border-box;
-    flex: 0 0 250px;
+    transition: 0.3s;
 }
-
-.card:hover {
-    transform: trasnlateY(-10px)scale(1.03);
-    box-shadow: 0 10px 30px rgba(56,189,248,0.25);
-}    
 
 .card h3 {
     color: #38bdf8;
@@ -139,11 +239,11 @@ section p {
     transform: translateY(-10px);
 }
 
-.cards {
+.projects {
     display: flex;
-    justtify-content: center;
+    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 .hero {
@@ -253,35 +353,3 @@ section p {
         margin: 10px 0;
     }
 }
-
-.hero {
-    animation: muncul 1s ease;
-}
-
-@keyfarmes muncul {
-    from {
-        opacity: 0;
-        transform: traslateY(30px);
-    }
-
-    to {
-       opacity: 1;
-       transform: translateY(0);
-    }
-}
-
-.hero h1 {
-    animation: Judul 1s ease
-}
-
-@keyframes judul {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}    
