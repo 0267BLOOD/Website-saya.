@@ -141,12 +141,16 @@ section p {
 
 .cards {
     display: flex;
-    flex-direction: row;
     justtify-content: center;
-    align-items: center;
     gap: 20px;
-    width: 100%:
     flex-wrap: wrap;   
+}
+
+#project {
+    text-align: center;
+    display: flex;
+    flex-direction: colum;
+    align-items: center;
 }
 
 .hero {
