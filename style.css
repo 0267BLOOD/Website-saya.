@@ -211,3 +211,35 @@ body.light .card {
 body.light section p {
     color: #334155;
 }    
+
+#contactForm {
+    widht: 100%;
+    max-widht: 500px;
+    
+    display: flex;
+    flex-direction: colum;
+
+    gap: 15px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%
+    padding: 15px
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contactForm textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#hasilPesan {
+    margin-top: 20px;
+    color: #38bdf8;
+}
