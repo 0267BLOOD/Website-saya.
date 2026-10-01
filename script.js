@@ -17,3 +17,18 @@ themeBtn.addEventListener("click", function() {
         themeBtn.textContent = "☀️";
     }
 });
+
+
+const contactForm = document.querySelector("#contactForm");
+const hasilPesan = document.querySelector("#hasilPesan");
+
+contactForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const nama = document.querySelector("#nama").value;
+
+    hasilPesan.textContent =
+        "Terima kasih, " + nama + "! Pesan kamu sudah diterima. 👋";
+
+    contactForm.reset();
+});
