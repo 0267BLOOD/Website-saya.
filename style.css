@@ -243,3 +243,34 @@ body.light section p {
     margin-top: 20px;
     color: #38bdf8;
 }
+
+@media (max-Width: 768px) {
+    nav {
+        flex-direction: coluum;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links {
+        felx-warp: warp;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+    
+    section {
+        padding: 60px 20px;
+    }
+    
+    section h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        wodth: min(100%, 30px);
+    }
+}
+        
