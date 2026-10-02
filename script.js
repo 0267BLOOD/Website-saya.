@@ -25,10 +25,11 @@ const hasilPesan = document.querySelector("#hasilPesan");
 contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const nama = document.querySelector("#nama").value;
+    const usernameTelegram = "Q_1erty";
 
-    hasilPesan.textContent =
-        "Terima kasih, " + nama + "! Pesan kamu sudah diterima. 👋";
+    const url = "https://t.me/" + usernameTelegram;
+
+    window.open(url, "_blank");
 
     contactForm.reset();
 });
