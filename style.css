@@ -213,19 +213,19 @@ body.light section p {
 }    
 
 #contactForm {
-    widht: 100%;
-    max-widht: 500px;
-    
+    width: 100%;
+    max-width: 500px;
+
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
 
     gap: 15px;
 }
 
 #contactForm input,
 #contactForm textarea {
-    width: 100%
-    padding: 15px
+    width: 100%;
+    padding: 15px;
 
     border: none;
     border-radius: 8px;
