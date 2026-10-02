@@ -244,13 +244,7 @@ body.light section p {
     color: #38bdf8;
 }
 
-@media (max-Width: 768px) {
-    nav {
-        flex-direction: coluum;
-        gap: 15px;
-        text-align: center;
-    }
-
+@media (max-width: 768px) {
     .nav-links {
         felx-warp: warp;
         justify-content: center;
@@ -274,3 +268,42 @@ body.light section p {
     }
 }
         
+#menuBtn {
+    display: none;
+    
+    border: none;
+    background: transparent;
+    
+    color: white;
+    font-size: 28px;
+    
+    cursor: pointer;
+}
+
+@media (wmax-width: 480px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        slign-itrm: center;
+    }
+    
+    #menuBtn {
+        display: block;
+    }
+    
+    .nav-links {
+        display: none;
+        
+        width: 100%;
+        
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 20px;
+        
+        padding-top: 20ox;
+    }
+    .nav-links.active {
+        displa: felx;
+    }
+}
