@@ -243,30 +243,6 @@ body.light section p {
     margin-top: 20px;
     color: #38bdf8;
 }
-
-@media (max-width: 768px) {
-    .nav-links {
-        felx-warp: warp;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-    
-    section {
-        padding: 60px 20px;
-    }
-    
-    section h2 {
-        font-size: 28px;
-    }
-
-    .card {
-        wodth: min(100%, 30px);
-    }
-}
         
 #menuBtn {
     display: none;
@@ -280,30 +256,68 @@ body.light section p {
     cursor: pointer;
 }
 
-@media (wmax-width: 480px) {
+@media (max-width: 700px) {
+
     nav {
+        position: relative;
         flex-direction: row;
         justify-content: space-between;
-        slign-itrm: center;
+        align-items: center;
+        padding: 15px 20px;
     }
-    
+
     #menuBtn {
         display: block;
+        order: 3;
+
+        border: none;
+        background: transparent;
+
+        color: white;
+        font-size: 30px;
+
+        cursor: pointer;
     }
-    
+
     .nav-links {
         display: none;
-        
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
         width: 100%;
-        
+
         flex-direction: column;
         align-items: center;
-        
+
         gap: 20px;
-        
-        padding-top: 20ox;
+
+        padding: 25px 0;
+
+        background: #0b1f3a;
+
+        z-index: 100;
     }
+
     .nav-links.active {
-        displa: felx;
+        display: flex;
     }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: min(100%, 300px);
+    }
+
 }
