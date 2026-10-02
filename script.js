@@ -34,10 +34,9 @@ contactForm.addEventListener("submit", function(event) {
     contactForm.reset();
 });
 
-
 const menuBtn = document.querySelector("#menuBtn");
-const navlinks = document.querySelector("#navlinks");
+const navLinks = document.querySelector("#navLinks");
 
-menuBtn.addEventListener("click",function() {
-    navlinks.classList.toggle("active");
+menuBtn.addEventListener("click", function() {
+    navLinks.classList.toggle("active");
 });
