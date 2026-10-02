@@ -33,3 +33,11 @@ contactForm.addEventListener("submit", function(event) {
 
     contactForm.reset();
 });
+
+
+const menuBtn = document.querySelector("#menuBtn");
+const navlinks = document.querySelector("#navlinks");
+
+menuBtn.addEventListener("click",function() {
+    navlinks.classList.toggle("active");
+});
