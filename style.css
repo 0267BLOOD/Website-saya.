@@ -320,3 +320,14 @@ body.light section p {
         width: min(100%, 300px);
     }
 }
+
+section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
