@@ -128,10 +128,10 @@ section h2 {
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.30);
 
     box-shadow:
-        0 10px 30px rgba(56, 189, 248, 0.25);
+        0 15px 35px rgba(56, 189, 248, 0.35);
 }
 
 .card h3 {
