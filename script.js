@@ -50,3 +50,25 @@ menuLinks.forEach(function(link) {
         navLinks.classList.remove("active");
     });
 });
+
+
+const sections = document.querySelectorAll("section");
+
+function tampilkanSection() {
+
+    sections.forEach(function(section) {
+
+        const posisi = section.getBoundingClientRect().top;
+        const tinggiLayar = window.innerHeight;
+
+        if (posisi < tinggiLayar - 100) {
+            section.classList.add("show");
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll", tampilkanSection);
+
+tampilkanSection();
