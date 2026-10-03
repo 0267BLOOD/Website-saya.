@@ -40,3 +40,12 @@ const navLinks = document.querySelector("#navLinks");
 menuBtn.addEventListener("click", function() {
     navLinks.classList.toggle("active");
 });
+
+const menuLinks = document.querySelector("#navlinks");
+
+menuLinks.forEach(function(link) {
+    link.addEventListener("click",fuction() {
+
+    navLinks.classList.remove("active");
+    })
+});
