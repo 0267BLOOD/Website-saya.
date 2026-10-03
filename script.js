@@ -41,11 +41,10 @@ menuBtn.addEventListener("click", function() {
     navLinks.classList.toggle("active");
 });
 
-const menuLinks = document.querySelector("#navlinks");
+const menuLinks = document.querySelector("#navlinks a");
 
 menuLinks.forEach(function(link) {
     link.addEventListener("click",fuction() {
-
-    navLinks.classList.remove("active");
-    })
+        navLinks.classList.remove("active");
+    });
 });
