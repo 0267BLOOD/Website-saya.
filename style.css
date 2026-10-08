@@ -354,3 +354,14 @@ section.show {
 .project-btn:hover {
     transform: scale(1.05);
 }
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    
+    object-fit: cover;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+}
