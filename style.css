@@ -327,6 +327,11 @@ section {
     transition: 0.8s ease;
 }
 
+#project-page {
+    opacity: !;
+    transform: translateY(0);
+}
+
 section.show {
     opacity: 1;
     transform: translateY(0);
